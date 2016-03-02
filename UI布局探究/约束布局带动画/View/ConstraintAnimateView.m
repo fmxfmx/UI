@@ -63,7 +63,6 @@
             make.left.mas_equalTo(weakSelf.mas_left);
             make.top.mas_equalTo(weakSelf.mas_top);
             
-  
         }
         else
         {
@@ -71,7 +70,6 @@
             make.right.mas_equalTo(weakSelf.mas_right);
             make.bottom.mas_equalTo(weakSelf.mas_bottom);
             
-
         }
         
     }];

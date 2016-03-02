@@ -38,7 +38,7 @@
     self.view.backgroundColor = [UIColor blackColor];
     
     _button.backgroundColor = [UIColor whiteColor];
-    [_button setTitle:@"测试" forState:UIControlStateNormal];
+    [_button setTitle:@"TEST" forState:UIControlStateNormal];
     [_button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [_button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
 }
