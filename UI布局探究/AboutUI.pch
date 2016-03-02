@@ -1,0 +1,23 @@
+//
+//  AboutUI.pch
+//  UI布局探究
+//
+//  Created by fengmingxiao on 16/3/2.
+//  Copyright © 2016年 fengmingxiao. All rights reserved.
+//
+
+#ifndef AboutUI_pch
+#define AboutUI_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Masonry.h>
+
+#define WS(weakSelf)   __weak __typeof(&*self)weakSelf = self
+#define NORMALUI                     @"普通布局"
+#define NORMALUIWITHANIMATIONT       @"普通布局带动画"
+#define CONSTRAINTSUI                @"约束布局"
+#define CONSTRAINTSUIWITHANIMATION   @"约束布局带动画"
+
+#endif /* AboutUI_pch */

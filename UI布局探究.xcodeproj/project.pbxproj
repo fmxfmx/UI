@@ -15,6 +15,15 @@
 		005F372B1C86BE4A0089D255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005F37291C86BE4A0089D255 /* LaunchScreen.storyboard */; };
 		005F37361C86BE4A0089D255 /* UI____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F37351C86BE4A0089D255 /* UI____Tests.m */; };
 		005F37411C86BE4B0089D255 /* UI____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F37401C86BE4B0089D255 /* UI____UITests.m */; };
+		005F37591C86C58A0089D255 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F37581C86C58A0089D255 /* NormalViewController.m */; };
+		005F375C1C86C5A70089D255 /* NormalWIthAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F375B1C86C5A70089D255 /* NormalWIthAnimateViewController.m */; };
+		005F375F1C86C5BB0089D255 /* ConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F375E1C86C5BB0089D255 /* ConstraintViewController.m */; };
+		005F37621C86C5CC0089D255 /* ConstraintsWithAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F37611C86C5CC0089D255 /* ConstraintsWithAnimateViewController.m */; };
+		005F37651C86CBB30089D255 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F37641C86CBB30089D255 /* DemoView.m */; };
+		005F37681C86D2590089D255 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F37671C86D2590089D255 /* TestView.m */; };
+		005F376B1C86E2E30089D255 /* ConstraintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F376A1C86E2E30089D255 /* ConstraintView.m */; };
+		005F376E1C86E6260089D255 /* ConstraintAnimateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F376D1C86E6260089D255 /* ConstraintAnimateView.m */; };
+		0EA0635232CB0D56A62B4F16 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B924E94E0B6624DC35E41F03 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,26 @@
 		005F373C1C86BE4A0089D255 /* UI布局探究UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI布局探究UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		005F37401C86BE4B0089D255 /* UI____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI____UITests.m"; sourceTree = "<group>"; };
 		005F37421C86BE4B0089D255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005F37561C86BF600089D255 /* AboutUI.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUI.pch; sourceTree = "<group>"; };
+		005F37571C86C58A0089D255 /* NormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		005F37581C86C58A0089D255 /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		005F375A1C86C5A70089D255 /* NormalWIthAnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalWIthAnimateViewController.h; sourceTree = "<group>"; };
+		005F375B1C86C5A70089D255 /* NormalWIthAnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalWIthAnimateViewController.m; sourceTree = "<group>"; };
+		005F375D1C86C5BB0089D255 /* ConstraintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintViewController.h; sourceTree = "<group>"; };
+		005F375E1C86C5BB0089D255 /* ConstraintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintViewController.m; sourceTree = "<group>"; };
+		005F37601C86C5CC0089D255 /* ConstraintsWithAnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintsWithAnimateViewController.h; sourceTree = "<group>"; };
+		005F37611C86C5CC0089D255 /* ConstraintsWithAnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintsWithAnimateViewController.m; sourceTree = "<group>"; };
+		005F37631C86CBB30089D255 /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
+		005F37641C86CBB30089D255 /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+		005F37661C86D2590089D255 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		005F37671C86D2590089D255 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		005F37691C86E2E30089D255 /* ConstraintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintView.h; sourceTree = "<group>"; };
+		005F376A1C86E2E30089D255 /* ConstraintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintView.m; sourceTree = "<group>"; };
+		005F376C1C86E6260089D255 /* ConstraintAnimateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintAnimateView.h; sourceTree = "<group>"; };
+		005F376D1C86E6260089D255 /* ConstraintAnimateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintAnimateView.m; sourceTree = "<group>"; };
+		5C301D9782865C58926DBC39 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B924E94E0B6624DC35E41F03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C419614B54A399FD9D80DCFE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA0635232CB0D56A62B4F16 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +115,8 @@
 				005F37341C86BE4A0089D255 /* UI布局探究Tests */,
 				005F373F1C86BE4B0089D255 /* UI布局探究UITests */,
 				005F37191C86BE4A0089D255 /* Products */,
+				BCD87E095D7158B6393954FC /* Pods */,
+				32816AF7ECE93F26C3FCAC44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +133,14 @@
 		005F371A1C86BE4A0089D255 /* UI布局探究 */ = {
 			isa = PBXGroup;
 			children = (
+				005F374E1C86BF400089D255 /* 普通布局 */,
+				005F37501C86BF400089D255 /* 普通布局带动画 */,
+				005F37521C86BF400089D255 /* 约束布局 */,
+				005F37541C86BF400089D255 /* 约束布局带动画 */,
 				005F371E1C86BE4A0089D255 /* AppDelegate.h */,
 				005F371F1C86BE4A0089D255 /* AppDelegate.m */,
 				005F37211C86BE4A0089D255 /* ViewController.h */,
 				005F37221C86BE4A0089D255 /* ViewController.m */,
-				005F37241C86BE4A0089D255 /* Main.storyboard */,
-				005F37271C86BE4A0089D255 /* Assets.xcassets */,
-				005F37291C86BE4A0089D255 /* LaunchScreen.storyboard */,
-				005F372C1C86BE4A0089D255 /* Info.plist */,
 				005F371B1C86BE4A0089D255 /* Supporting Files */,
 			);
 			path = "UI布局探究";
@@ -117,7 +149,12 @@
 		005F371B1C86BE4A0089D255 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				005F37241C86BE4A0089D255 /* Main.storyboard */,
+				005F37271C86BE4A0089D255 /* Assets.xcassets */,
+				005F37291C86BE4A0089D255 /* LaunchScreen.storyboard */,
+				005F372C1C86BE4A0089D255 /* Info.plist */,
 				005F371C1C86BE4A0089D255 /* main.m */,
+				005F37561C86BF600089D255 /* AboutUI.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +177,99 @@
 			path = "UI布局探究UITests";
 			sourceTree = "<group>";
 		};
+		005F374E1C86BF400089D255 /* 普通布局 */ = {
+			isa = PBXGroup;
+			children = (
+				005F374F1C86BF400089D255 /* View */,
+				005F37571C86C58A0089D255 /* NormalViewController.h */,
+				005F37581C86C58A0089D255 /* NormalViewController.m */,
+			);
+			path = "普通布局";
+			sourceTree = "<group>";
+		};
+		005F374F1C86BF400089D255 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				005F37631C86CBB30089D255 /* DemoView.h */,
+				005F37641C86CBB30089D255 /* DemoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		005F37501C86BF400089D255 /* 普通布局带动画 */ = {
+			isa = PBXGroup;
+			children = (
+				005F37511C86BF400089D255 /* View */,
+				005F375A1C86C5A70089D255 /* NormalWIthAnimateViewController.h */,
+				005F375B1C86C5A70089D255 /* NormalWIthAnimateViewController.m */,
+			);
+			path = "普通布局带动画";
+			sourceTree = "<group>";
+		};
+		005F37511C86BF400089D255 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				005F37661C86D2590089D255 /* TestView.h */,
+				005F37671C86D2590089D255 /* TestView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		005F37521C86BF400089D255 /* 约束布局 */ = {
+			isa = PBXGroup;
+			children = (
+				005F37531C86BF400089D255 /* View */,
+				005F375D1C86C5BB0089D255 /* ConstraintViewController.h */,
+				005F375E1C86C5BB0089D255 /* ConstraintViewController.m */,
+			);
+			path = "约束布局";
+			sourceTree = "<group>";
+		};
+		005F37531C86BF400089D255 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				005F37691C86E2E30089D255 /* ConstraintView.h */,
+				005F376A1C86E2E30089D255 /* ConstraintView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		005F37541C86BF400089D255 /* 约束布局带动画 */ = {
+			isa = PBXGroup;
+			children = (
+				005F37551C86BF400089D255 /* View */,
+				005F37601C86C5CC0089D255 /* ConstraintsWithAnimateViewController.h */,
+				005F37611C86C5CC0089D255 /* ConstraintsWithAnimateViewController.m */,
+			);
+			path = "约束布局带动画";
+			sourceTree = "<group>";
+		};
+		005F37551C86BF400089D255 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				005F376C1C86E6260089D255 /* ConstraintAnimateView.h */,
+				005F376D1C86E6260089D255 /* ConstraintAnimateView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32816AF7ECE93F26C3FCAC44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B924E94E0B6624DC35E41F03 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCD87E095D7158B6393954FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C419614B54A399FD9D80DCFE /* Pods.debug.xcconfig */,
+				5C301D9782865C58926DBC39 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005F37451C86BE4B0089D255 /* Build configuration list for PBXNativeTarget "UI布局探究" */;
 			buildPhases = (
+				E1C9115B55F12C27AC2296C4 /* Check Pods Manifest.lock */,
 				005F37141C86BE4A0089D255 /* Sources */,
 				005F37151C86BE4A0089D255 /* Frameworks */,
 				005F37161C86BE4A0089D255 /* Resources */,
+				BA64F8CEADB0C3D194193776 /* Embed Pods Frameworks */,
+				9DB456CDE98297ECA8DC01E4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +398,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DB456CDE98297ECA8DC01E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA64F8CEADB0C3D194193776 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C9115B55F12C27AC2296C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		005F37141C86BE4A0089D255 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005F37681C86D2590089D255 /* TestView.m in Sources */,
+				005F37621C86C5CC0089D255 /* ConstraintsWithAnimateViewController.m in Sources */,
 				005F37231C86BE4A0089D255 /* ViewController.m in Sources */,
+				005F375F1C86C5BB0089D255 /* ConstraintViewController.m in Sources */,
+				005F376E1C86E6260089D255 /* ConstraintAnimateView.m in Sources */,
+				005F37591C86C58A0089D255 /* NormalViewController.m in Sources */,
 				005F37201C86BE4A0089D255 /* AppDelegate.m in Sources */,
+				005F37651C86CBB30089D255 /* DemoView.m in Sources */,
 				005F371D1C86BE4A0089D255 /* main.m in Sources */,
+				005F375C1C86C5A70089D255 /* NormalWIthAnimateViewController.m in Sources */,
+				005F376B1C86E2E30089D255 /* ConstraintView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,8 +598,10 @@
 		};
 		005F37461C86BE4B0089D255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C419614B54A399FD9D80DCFE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/fengmingxiao/Desktop/2016-03-02/UI布局探究/UI布局探究/AboutUI.pch";
 				INFOPLIST_FILE = "UI布局探究/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UI----";
@@ -420,8 +611,10 @@
 		};
 		005F37471C86BE4B0089D255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C301D9782865C58926DBC39 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/fengmingxiao/Desktop/2016-03-02/UI布局探究/UI布局探究/AboutUI.pch";
 				INFOPLIST_FILE = "UI布局探究/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UI----";
@@ -496,6 +689,7 @@
 				005F37471C86BE4B0089D255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		005F37481C86BE4B0089D255 /* Build configuration list for PBXNativeTarget "UI布局探究Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +698,7 @@
 				005F374A1C86BE4B0089D255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		005F374B1C86BE4B0089D255 /* Build configuration list for PBXNativeTarget "UI布局探究UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +707,7 @@
 				005F374D1C86BE4B0089D255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
